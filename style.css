@@ -1,3 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Overpass, sans-serif;
+}
+
+:root {
+  --primary-color: hsl(25, 97%, 53%);
+  --light-color-1: hsl(0, 0%, 100%);
+  --light-color-2: hsl(217, 12%, 63%);
+  --light-color-2: hsl(216, 12%, 54%);
+  --dark-color-1: hsl(213, 19%, 18%);
+  --dark-color-2: hsl(216, 12%, 8%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
