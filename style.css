@@ -143,6 +143,15 @@ body {
   margin-top: -20px;
 }
 
+.invisible {
+  display: none;
+}
+
+.rate-selected {
+  background-color: var(--primary-color);
+  color: var(--light-color-1);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
