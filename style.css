@@ -160,3 +160,10 @@ body {
 .attribution a {
   color: var(--primary-color);
 }
+
+@media (max-width: 410px) {
+  .thank-you-card,
+  .rating-state-container {
+    min-width: 280px;
+  }
+}
